@@ -90,45 +90,45 @@ Coming soon ...
     <Image name="image" value="$image" zoom="true" zoomControl="true" rotateControl="true"/>
     <View>
         <Filter toName="label" minlength="0" name="filter"/>
-        <Header value="$value" />
+        <Header value="$value"/>
         <RectangleLabels name="label" toName="image" strokeWidth="3" opacity="0.1">
-            <Label value="1m" background="#00b52e"/>
-            <Label value="2m" background="#bd601b"/>
-            <Label value="3m" background="#7cb2ae"/>
-            <Label value="4m" background="#a74586"/>
-            <Label value="5m" background="#746e61"/>
-            <Label value="5mr" background="#ff01aa"/>
-            <Label value="6m" background="#db5017"/>
-            <Label value="7m" background="#0490a9"/>
-            <Label value="8m" background="#d98d96"/>
-            <Label value="9m" background="#39e109"/>
-            <Label value="1s" background="#b4b0f2"/>
-            <Label value="2s" background="#70fe9f"/>
-            <Label value="3s" background="#0c9030"/>
-            <Label value="4s" background="#0f3473"/>
-            <Label value="5s" background="#2ff21e"/>
-            <Label value="5sr" background="#0022fa"/>
-            <Label value="6s" background="#625aae"/>
-            <Label value="7s" background="#67ab95"/>
-            <Label value="8s" background="#eb50f0"/>
-            <Label value="9s" background="#b1caea"/>
-            <Label value="1p" background="#76da3c"/>
-            <Label value="2p" background="#d67024"/>
-            <Label value="3p" background="#644f43"/>
-            <Label value="4p" background="#d4363e"/>
-            <Label value="5p" background="#6cd6f7"/>
-            <Label value="5pr" background="#00d6f7"/>
-            <Label value="6p" background="#59fb8f"/>
-            <Label value="7p" background="#6c1b3d"/>
-            <Label value="8p" background="#7946fd"/>
-            <Label value="9p" background="#c26255"/>
-            <Label value="ton" background="#7ed4c2"/>
-            <Label value="nan" background="#08681d"/>
-            <Label value="sha" background="#0b01f9"/>
-            <Label value="pei" background="#440bbc"/>
-            <Label value="hak" background="#dd3589"/>
-            <Label value="hat" background="#992aa4"/>
-            <Label value="tyn" background="#f8f859"/>
+            <Label value="1m" background="#FF0000" hotkey="1"/>
+            <Label value="2m" background="#FF1E1E" hotkey="2"/>
+            <Label value="3m" background="#FF3C3C" hotkey="3"/>
+            <Label value="4m" background="#FF5A5A" hotkey="4"/>
+            <Label value="5m" background="#FF7878" hotkey="5"/>
+            <Label value="6m" background="#FF9696" hotkey="6"/>
+            <Label value="7m" background="#FFB4B4" hotkey="7"/>
+            <Label value="8m" background="#FFD2D2" hotkey="8"/>
+            <Label value="9m" background="#FFF0F0" hotkey="9"/>
+            <Label value="5mr" background="#FF01FF" hotkey="0"/>
+            <Label value="1s" background="#00FF00" hotkey="q"/>
+            <Label value="2s" background="#00FF1E" hotkey="w"/>
+            <Label value="3s" background="#00FF3C" hotkey="e"/>
+            <Label value="4s" background="#00FF5A" hotkey="r"/>
+            <Label value="5s" background="#00FF78" hotkey="t"/>
+            <Label value="6s" background="#00FF96" hotkey="y"/>
+            <Label value="7s" background="#00FFB4" hotkey="u"/>
+            <Label value="8s" background="#32FFB4" hotkey="i"/>
+            <Label value="9s" background="#64FFB4" hotkey="o"/>
+            <Label value="5sr" background="#F218DF" hotkey="p"/>
+            <Label value="1p" background="#0000FF" hotkey="a"/>
+            <Label value="2p" background="#001EFF" hotkey="s"/>
+            <Label value="3p" background="#003CFF" hotkey="d"/>
+            <Label value="4p" background="#005AFF" hotkey="f"/>
+            <Label value="5p" background="#0078FF" hotkey="g"/>
+            <Label value="6p" background="#0096FF" hotkey="h"/>
+            <Label value="7p" background="#00B4FF" hotkey="j"/>
+            <Label value="8p" background="#00D2FF" hotkey="k"/>
+            <Label value="9p" background="#00F0FF" hotkey="l"/>
+            <Label value="5pr" background="#FF00FF" hotkey=";"/>
+            <Label value="ton" background="#000000" hotkey="z"/>
+            <Label value="nan" background="#646464" hotkey="x"/>
+            <Label value="sha" background="#969696" hotkey="c"/>
+            <Label value="pei" background="#C8C8C8" hotkey="v"/>
+            <Label value="hak" background="#FFFFFF" hotkey="b"/>
+            <Label value="hat" background="#00FF00" hotkey="n"/>
+            <Label value="tyn" background="#FF0000" hotkey="m"/>
         </RectangleLabels>
     </View>
 </View>
