@@ -1,3 +1,5 @@
 datasets/
+runs/
+res/
 *.pt
 .DS_Store

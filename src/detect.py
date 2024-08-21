@@ -1,8 +1,18 @@
 from ultralytics import YOLO
 
-model = YOLO('yolov8n.yaml')
+name = "3198.jpg"
 
-model = YOLO('runs/detect/train8/weights/best.pt')
+model = YOLO('runs/detect/train3/weights/best.pt')
+results = model([f"../datasets/test/images/{name}"])
+class_names = model.names
 
-# Predict the model
-model.predict('009.jpg', save=True)
+for result in results:
+    boxes = result.boxes
+    print("\n結果 : ")
+    for box in boxes:
+        class_id = int(box.cls[0])
+        confidence = box.conf[0]
+        class_name = class_names[class_id]
+        print(f"Class: {class_name}, Confidence: {confidence:.3f}")
+        
+    result.save(filename=f"res/{name}")  # save to disk

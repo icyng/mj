@@ -6,8 +6,8 @@ from collections import defaultdict
 def split_data(image_source_folder, text_source_folder, o_folders, ratios, pic_num):
     
     for folder in o_folders:
-        iti_i = '../datasets/mj/images/' + folder
-        iti_t = '../datasets/mj/labels/' + folder
+        iti_i = f'../datasets/{folder}/images'
+        iti_t = f'../datasets/{folder}/labels'
         os.makedirs(iti_i, exist_ok=True)
         os.makedirs(iti_t, exist_ok=True)
     
@@ -36,8 +36,8 @@ def split_data(image_source_folder, text_source_folder, o_folders, ratios, pic_n
             image_output_folder = o_folders[group_index]
             text_output_folder = o_folders[group_index]
 
-            image_target_path = os.path.join(f'../datasets/mj/images/{image_output_folder}', str(pic_num)+image)
-            text_target_path = os.path.join(f'../datasets/mj/labels/{text_output_folder}', str(pic_num)+text)
+            image_target_path = os.path.join(f'../datasets/{image_output_folder}/images', str(pic_num)+image)
+            text_target_path = os.path.join(f'../datasets/{text_output_folder}/labels', str(pic_num)+text)
 
             shutil.copy(image_source_path, image_target_path)
             shutil.copy(text_source_path, text_target_path)
@@ -48,7 +48,9 @@ labels = "../datasets/org/pic{}/labels"
 o_folders = ["test", "val", "train"]
 # 1:1:8 ratio
 ratios = [1/10, 1/10, 8/10]
-pic_nums = 1
+pic_nums = 3
 
-for i in range(pic_nums):
-    split_data(images, labels, o_folders, ratios, i+1)
+# for i in range(pic_nums):
+split_data(images, labels, o_folders, ratios, 3)
+split_data(images, labels, o_folders, ratios, 4)
+
