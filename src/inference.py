@@ -5,11 +5,11 @@ folder_path = '../datasets/test/images/'
 file_names = os.listdir(folder_path)
 file_pathes = [folder_path+f for f in file_names]
 
-model = YOLO('runs/detect/train3/weights/best.pt')
+model = YOLO('best.pt')
 results = model(file_pathes)
 class_names = model.names
 
-with open("res/res.txt","w") as o:
+with open("../res/res.txt","w") as o:
     for result,name in zip(results,file_names):
         boxes = result.boxes
         print(f"# result : {name}",file=o)

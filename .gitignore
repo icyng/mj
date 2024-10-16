@@ -1,5 +1,8 @@
 datasets/
+data_tempai/
 runs/
 res/
+docs/
+
 *.pt
 .DS_Store
