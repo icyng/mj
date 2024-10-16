@@ -2,7 +2,7 @@ import mjpai
 
 def main():
     print(mjpai.machi_hai(
-        ['2m', '2m', '5p', '5p', '6p', '6p', '6p', '3p', '3p', '3p', '4p', '4p', '4p']
+        ['1m', '1m', '1m', '2m', '3m', '4m', '5m', '6m', '7m', '8m', '9m', '9m', '9m']
         ))
 
 if __name__=="__main__":
