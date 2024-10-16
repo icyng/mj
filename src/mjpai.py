@@ -56,7 +56,7 @@ def clean(hai: list[dict]):
 
 
 def machi_hai(tehai: list[str]):
-    '''13枚の場合のみで検証'''
+    '''13枚の場合のみで検証 (例外処理なし) '''
 
     shanten = Shanten()
 
@@ -71,6 +71,7 @@ def machi_hai(tehai: list[str]):
     machi_list = []
     for a,_ in (sz|mz|pz|hr).items():
         tile = tilemaker(tehai, add=[a])
+        tile = [t.replace('0','5') for t in tile]
         tiles = TilesConverter.string_to_34_array(man=tile[0], pin=tile[1], sou=tile[2], honors=tile[3])
         if shanten.calculate_shanten_for_regular_hand(tiles) < 0: machi_list.append(a)
         if shanten.calculate_shanten_for_kokushi_hand(tiles) < 0: machi_list.append(a)
