@@ -53,4 +53,3 @@ pic_nums = 3
 # for i in range(pic_nums):
 split_data(images, labels, o_folders, ratios, 3)
 split_data(images, labels, o_folders, ratios, 4)
-
