@@ -75,9 +75,9 @@ def main():
     # 和了形
     new = mjpai.tilemaker(target, add=[hora_hai]) # TODO
 
-    #アガリ形(man=マンズ, pin=ピンズ, sou=ソーズ, honors=字牌)
+    #アガリ形tilesobject(man=マンズ, pin=ピンズ, sou=ソーズ, honors=字牌)
     tiles = TilesConverter.string_to_136_array(man=new[0], pin=new[1], sou=new[2], honors=new[3], has_aka_dora=False) # TODO
-    #アガリ牌
+    #アガリ牌tilesobject
     win_tile = TilesConverter.string_to_136_array(sou='2')[0] # TODO
 
     # 鳴き
