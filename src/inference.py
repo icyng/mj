@@ -10,7 +10,7 @@ model = YOLO('best.pt')
 results = model(file_pathes)
 class_names = model.names
 
-with open("../res/res.txt","w") as o:
+with open("res/res.txt","w") as o:
     for result,name in zip(results,file_names):
         boxes = result.boxes
         print(f"# result : {name}",file=o)
