@@ -1,8 +1,8 @@
 # Labeling instruction
 
-1. install and run
+1. install and run with Docker
 
-see [this page](https://labelstud.io/guide/start#Run-Label-Studio-on-Docker-and-use-Local-Storage) about path. 
+see [this page](https://labelstud.io/guide/start#Run-Label-Studio-on-Docker-and-use-Local-Storage) about path.
 
 ```bash
 # mac
