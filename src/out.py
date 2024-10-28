@@ -53,7 +53,7 @@ def print_hand_result(hand_result, tehai, wait, hora):
     print('')
 
 def main():
-    folder_path = '../data_tempai/'
+    folder_path = '../datasets/data_tempai/'
     file_names = os.listdir(folder_path)
     file_pathes = [folder_path+f for f in file_names]
 
