@@ -5,7 +5,7 @@ import os
 model = YOLO('yolov8n.pt')
 
 results = model.train(
-    data='../datasets/coco128.yml', 
+    data='../datasets/coco128-20240217.yml', 
     epochs=100, 
     batch=5,
     # device='mps',
