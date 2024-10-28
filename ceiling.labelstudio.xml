@@ -50,6 +50,10 @@
             <Label value="nak-sha" background="#FFFFCC" hotkey="shift+7"/>
             <Label value="nak-pei" background="#FFFFE5" hotkey="shift+8"/>
             <Label value="dora" background="#FFFFF5" hotkey="shift+9"/>
+            <Label value="rea-ton" background="#333333" hotkey="shift+q"/>
+            <Label value="rea-nan" background="#333333" hotkey="shift+w"/>
+            <Label value="rea-sha" background="#333333" hotkey="shift+e"/>
+            <Label value="rea-pei" background="#333333" hotkey="shift+r"/>
         </RectangleLabels>
     </View>
 </View>
