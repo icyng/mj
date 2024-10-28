@@ -41,6 +41,15 @@
             <Label value="hak" background="#FFFFFF" hotkey="b"/>
             <Label value="hat" background="#00FF00" hotkey="n"/>
             <Label value="tyn" background="#FF0000" hotkey="m"/>
+            <Label value="dis-ton" background="#FFFF32" hotkey="shift+1"/>
+            <Label value="dis-nan" background="#FFFF4C" hotkey="shift+2"/>
+            <Label value="dis-sha" background="#FFFF65" hotkey="shift+3"/>
+            <Label value="dis-pei" background="#FFFF7F" hotkey="shift+4"/>
+            <Label value="nak-ton" background="#FFFF98" hotkey="shift+5"/>
+            <Label value="nak-nan" background="#FFFFB2" hotkey="shift+6"/>
+            <Label value="nak-sha" background="#FFFFCC" hotkey="shift+7"/>
+            <Label value="nak-pei" background="#FFFFE5" hotkey="shift+8"/>
+            <Label value="dora" background="#FFFFF5" hotkey="shift+9"/>
         </RectangleLabels>
     </View>
 </View>
