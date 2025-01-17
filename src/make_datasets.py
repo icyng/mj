@@ -48,8 +48,7 @@ labels = "../datasets/org/pic{}/labels"
 o_folders = ["test", "val", "train"]
 # 1:1:8 ratio
 ratios = [1/10, 1/10, 8/10]
-pic_nums = 3
+pic_nums = 10
 
-# for i in range(pic_nums):
-split_data(images, labels, o_folders, ratios, 3)
-split_data(images, labels, o_folders, ratios, 4)
+for i in range(pic_nums):
+    split_data(images, labels, o_folders, ratios, i+1)

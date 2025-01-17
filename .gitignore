@@ -3,6 +3,7 @@ data_tempai/
 runs/
 res/
 docs/
+old/
 __pycache__/
 
 *.pt

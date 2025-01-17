@@ -4,7 +4,7 @@ import os
 # テストデータで推論
 folder_path = '../datasets/test/images/'
 file_names = os.listdir(folder_path)
-file_pathes = [folder_path+f for f in file_names]
+file_pathes = [folder_path+f for f in file_names if '.db' not in f]
 
 model = YOLO('best.pt')
 results = model(file_pathes)
