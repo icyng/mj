@@ -88,7 +88,7 @@ def main():
     ] # TODO
     # リーチ、一発、風、ロンorツモ, その他オプションルールや赤ドラなども追加可能
     config = HandConfig(is_riichi=True, player_wind=EAST, round_wind=SOUTH, is_tsumo=False, options=OptionalRules(has_open_tanyao=True, fu_for_open_pinfu=True, fu_for_pinfu_tsumo=True, has_aka_dora=False)) # TODO
- 
+
     result = calculator.estimate_hand_value(tiles, win_tile, melds, dora_indicators, config)
     print_hand_result(result, old, machi_hai, hora_hai)
 
