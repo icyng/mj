@@ -1,4 +1,4 @@
-# Labeling instruction
+# Labeling instruction (Annotation method)
 
 1. install and run with Docker
 
